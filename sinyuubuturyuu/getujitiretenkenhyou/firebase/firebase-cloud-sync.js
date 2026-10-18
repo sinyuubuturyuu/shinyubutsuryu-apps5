@@ -2,7 +2,8 @@
 (function () {
   "use strict";
 
-  const PENDING_KEY = "tire.monthly.cloud.pending.v1";
+  // Do not replay another environment's unsent records into this project.
+  const PENDING_KEY = "tire.monthly.cloud.pending.shinyubutsuryu-apps.v1";
   const DEVICE_ID_KEY = "tire.monthly.cloud.device.v1";
   const MAX_PENDING = 200;
   const SETTINGS_BACKUP_KIND = {

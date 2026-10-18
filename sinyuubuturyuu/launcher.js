@@ -7,16 +7,16 @@
 
 const MONTHLY_COMPLETE_IMAGE_SRC = "./getujitiretenkenhyou/icons/monthly-complete.png";
 const REFERENCE_FIREBASE_CONFIG = Object.freeze(getRuntimeFirebaseConfig(window.APP_FIREBASE_DIRECTORY_CONFIG || {
-  apiKey: "AIzaSyCUhbTrb3c5wN3zeJkFHzYvdWtN777hpNk",
-  authDomain: "sinyuubuturyuu-86aeb.firebaseapp.com",
-  projectId: "sinyuubuturyuu-86aeb",
-  storageBucket: "sinyuubuturyuu-86aeb.firebasestorage.app",
-  messagingSenderId: "213947378677",
-  appId: "1:213947378677:web:03b73a0dc7d710a9900ebc",
-  measurementId: "G-F9VYGCTHEV",
+  apiKey: "AIzaSyAUs7d1xN4dc-UBzoGy21Aal1oOXImlKuo",
+  authDomain: "shinyubutsuryu-apps.firebaseapp.com",
+  projectId: "shinyubutsuryu-apps",
+  storageBucket: "shinyubutsuryu-apps.firebasestorage.app",
+  messagingSenderId: "627494924441",
+  appId: "1:627494924441:web:30a434cec33f1d49d9c808",
+  measurementId: "G-LDN6MRJ6PB",
 }));
 const FIREBASE_ENVIRONMENT = Object.freeze({
-  developmentProjectId: "sinyuubuturyuu-dev",
+  developmentProjectId: "shinyubutsuryu-apps",
   currentProjectId: String((window.APP_FIREBASE_CONFIG && window.APP_FIREBASE_CONFIG.projectId) || "").trim(),
 });
 const IS_DEVELOPMENT_FIREBASE_ENVIRONMENT = FIREBASE_ENVIRONMENT.currentProjectId === FIREBASE_ENVIRONMENT.developmentProjectId;
@@ -46,13 +46,13 @@ const DAILY_INSPECTION_COMPLETE_IMAGE_ALT = "Daily inspection complete for this 
 const LAUNCH_RETRY_MESSAGE = "通信状態を確認して、もう一度タップしてください。";
 const LAUNCH_FALLBACK_MESSAGE = "完了状況を確認できないため、そのまま開きます。";
 const DAILY_INSPECTION_FIREBASE_CONFIG = Object.freeze(getRuntimeFirebaseConfig({
-  apiKey: "AIzaSyCUhbTrb3c5wN3zeJkFHzYvdWtN777hpNk",
-  authDomain: "sinyuubuturyuu-86aeb.firebaseapp.com",
-  projectId: "sinyuubuturyuu-86aeb",
-  storageBucket: "sinyuubuturyuu-86aeb.firebasestorage.app",
-  messagingSenderId: "213947378677",
-  appId: "1:213947378677:web:03b73a0dc7d710a9900ebc",
-  measurementId: "G-F9VYGCTHEV",
+  apiKey: "AIzaSyAUs7d1xN4dc-UBzoGy21Aal1oOXImlKuo",
+  authDomain: "shinyubutsuryu-apps.firebaseapp.com",
+  projectId: "shinyubutsuryu-apps",
+  storageBucket: "shinyubutsuryu-apps.firebasestorage.app",
+  messagingSenderId: "627494924441",
+  appId: "1:627494924441:web:30a434cec33f1d49d9c808",
+  measurementId: "G-LDN6MRJ6PB",
 }));
 const DAILY_INSPECTION_APP_SETTINGS = Object.freeze({
   collectionName: "getujinitijyoutenkenhyou",

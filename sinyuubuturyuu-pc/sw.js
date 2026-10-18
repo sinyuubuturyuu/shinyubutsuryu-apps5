@@ -1,4 +1,4 @@
-const APP_VERSION = "20260928a";
+const APP_VERSION = "20261018-shinyubutsuryu-apps-b";
 const VERSION_PARAM = "v";
 
 self.addEventListener("install", function (event) {

@@ -9,12 +9,12 @@ const host = "0.0.0.0";
 const maxPortAttempts = 20;
 const firebaseEmulatorEnabled = String(process.env.APP_USE_FIREBASE_EMULATOR || "").toLowerCase() === "true";
 const firebaseEmulatorConfig = {
-  apiKey: "AIzaSyBBvJndQmecQfaetdjs9Pb6Z1TDmoQMOGc",
-  authDomain: "sinyuubuturyuu-dev.firebaseapp.com",
-  projectId: "sinyuubuturyuu-dev",
-  storageBucket: "sinyuubuturyuu-dev.firebasestorage.app",
-  messagingSenderId: "997788842966",
-  appId: "1:997788842966:web:e011e7340e2af863c40277"
+  apiKey: "AIzaSyAUs7d1xN4dc-UBzoGy21Aal1oOXImlKuo",
+  authDomain: "shinyubutsuryu-apps.firebaseapp.com",
+  projectId: "shinyubutsuryu-apps",
+  storageBucket: "shinyubutsuryu-apps.firebasestorage.app",
+  messagingSenderId: "627494924441",
+  appId: "1:627494924441:web:30a434cec33f1d49d9c808"
 };
 const firebaseEmulatorRuntime = {
   authUrl: "http://127.0.0.1:9099",

@@ -2,13 +2,13 @@
   "use strict";
 
   window.DRIVER_POINTS_FIREBASE_CONFIG = {
-    apiKey: "AIzaSyCUhbTrb3c5wN3zeJkFHzYvdWtN777hpNk",
-    authDomain: "sinyuubuturyuu-86aeb.firebaseapp.com",
-    projectId: "sinyuubuturyuu-86aeb",
-    storageBucket: "sinyuubuturyuu-86aeb.firebasestorage.app",
-    messagingSenderId: "213947378677",
-    appId: "1:213947378677:web:03b73a0dc7d710a9900ebc",
-    measurementId: "G-F9VYGCTHEV"
+    apiKey: "AIzaSyAUs7d1xN4dc-UBzoGy21Aal1oOXImlKuo",
+    authDomain: "shinyubutsuryu-apps.firebaseapp.com",
+    projectId: "shinyubutsuryu-apps",
+    storageBucket: "shinyubutsuryu-apps.firebasestorage.app",
+    messagingSenderId: "627494924441",
+    appId: "1:627494924441:web:30a434cec33f1d49d9c808",
+    measurementId: "G-LDN6MRJ6PB"
   };
 
   window.DRIVER_POINTS_FIREBASE_SETTINGS = {

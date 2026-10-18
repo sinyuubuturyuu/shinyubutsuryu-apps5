@@ -19,7 +19,7 @@ const INSPECTION_GUIDE_MESSAGE = `未入力日のみ表示しています。
 タップすると空欄 → レ → × → ▲と入力されます。　
 休みの日は日付を押して休みとしてください。もう一度押すと解除できます。
 一日分以上を入力したら上の送信ボタンを押してください。`;
-const APP_VERSION = "20260801a";
+const APP_VERSION = "20261018-shinyubutsuryu-apps-a";
 const MONTHLY_COMPLETE_IMAGE_SRC = "./icons/monthly-complete.png";
 const MONTHLY_COMPLETE_IMAGE_ALT = "今月分はすべて完了しました。明日もよろしくお願いします。";
 const SEND_FAREWELL_IMAGE_SRCS = Object.freeze([
@@ -644,6 +644,9 @@ async function createStore() {
     const app = typeof getApps === "function" && getApps().length
       ? getApp()
       : initializeApp(getRuntimeFirebaseConfig(firebaseConfig));
+    if (app.options.projectId !== getRuntimeFirebaseConfig(firebaseConfig).projectId) {
+      throw new Error("Firebase project does not match the configured environment.");
+    }
     const auth = authModule.getAuth(app);
     connectAuthEmulatorIfNeeded(authModule, auth);
     if (!auth.currentUser && typeof auth.authStateReady === "function") {

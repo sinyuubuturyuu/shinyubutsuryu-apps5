@@ -73,6 +73,27 @@ body {
   gap: 10px;
 }
 
+.environment-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 6px 12px;
+  border: 1px solid rgba(26, 115, 232, 0.28);
+  border-radius: 999px;
+  background: rgba(26, 115, 232, 0.1);
+  color: #185abc;
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.environment-badge[hidden] {
+  display: none;
+}
+
 .eyebrow {
   margin: 0;
   color: var(--primary);
