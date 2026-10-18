@@ -1,4 +1,4 @@
-const CACHE_NAME = "monthly-tire-check-v58";
+const CACHE_NAME = "monthly-tire-check-20261018-shinyubutsuryu-apps-a";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,8 +6,8 @@ const ASSETS = [
   "./app.js?v=20260801a",
   "./manifest.webmanifest",
   "./sw.js",
-  "./firebase/firebase-config.js?v=20260727a",
-  "./firebase/firebase-cloud-sync.js?v=20260727a",
+  "./firebase/firebase-config.js?v=20261018-shinyubutsuryu-apps-a",
+  "./firebase/firebase-cloud-sync.js?v=20261018-shinyubutsuryu-apps-a",
   "./icons/icon-180.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

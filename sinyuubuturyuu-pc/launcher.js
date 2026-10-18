@@ -1,5 +1,6 @@
-﻿const PC_LAUNCHER_VERSION = window.__SINYUUBUTURYUU_PC_VERSION__ || "20260404b";
+﻿const PC_LAUNCHER_VERSION = window.__SINYUUBUTURYUU_PC_VERSION__ || "20261018-shinyubutsuryu-apps-b";
 const elements = {
+  environmentBadge: document.getElementById("environmentBadge"),
   authLoading: document.getElementById("authLoading"),
   loginPanel: document.getElementById("loginPanel"),
   launcherApp: document.getElementById("launcherApp"),
@@ -27,12 +28,24 @@ const state = {
   }
 };
 
+renderEnvironmentBadge();
 renderAuth();
 bindEvents();
 setVersionedLinks();
 registerInstallServiceWorker();
 bindLauncherWindowLinks();
 void initializeAuth();
+
+function renderEnvironmentBadge() {
+  if (!elements.environmentBadge) {
+    return;
+  }
+
+  const projectId = String((window.APP_FIREBASE_CONFIG && window.APP_FIREBASE_CONFIG.projectId) || "").trim();
+  const isDevelopment = projectId === "shinyubutsuryu-apps";
+  elements.environmentBadge.textContent = isDevelopment ? `DEV / ${projectId}` : "";
+  elements.environmentBadge.hidden = !isDevelopment;
+}
 
 function renderAuth() {
   const user = state.auth.user;

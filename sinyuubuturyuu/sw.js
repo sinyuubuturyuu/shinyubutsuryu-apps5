@@ -1,14 +1,14 @@
-const CACHE_NAME = "sinyuubuturyuu-launcher-v29";
+const CACHE_NAME = "sinyuubuturyuu-launcher-20261018-shinyubutsuryu-apps-a";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./launcher.css?v=20260727b",
-  "./launcher.js?v=20260801a",
+  "./launcher.js?v=20261018-shinyubutsuryu-apps-a",
   "./shared-settings.js?v=20260801a",
-  "./getujitiretenkenhyou/firebase/firebase-config.js?v=20260727a",
+  "./getujitiretenkenhyou/firebase/firebase-config.js?v=20261018-shinyubutsuryu-apps-a",
   "./auth/firebase-auth.js?v=20260727a",
-  "./getujitiretenkenhyou/firebase/firebase-cloud-sync.js?v=20260727a",
-  "./driver-points/driver-points.js?v=20260928a",
+  "./getujitiretenkenhyou/firebase/firebase-cloud-sync.js?v=20261018-shinyubutsuryu-apps-a",
+  "./driver-points/driver-points.js?v=20261018-shinyubutsuryu-apps-a",
   "./manifest.webmanifest",
   "./sinyuubuturyuu-icon.png",
   "./apple-touch-icon.png",

@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const LATEST_PC_APP_VERSION = "20260928a";
+  const LATEST_PC_APP_VERSION = "20261018-shinyubutsuryu-apps-b";
   const VERSION_PARAM = "v";
 
   function getVersion(fallbackVersion) {

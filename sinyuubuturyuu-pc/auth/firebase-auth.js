@@ -70,6 +70,10 @@
         ? getApp()
         : initializeApp(config);
 
+      if (app.options.projectId !== config.projectId) {
+        throw new Error("Firebase project does not match the configured environment.");
+      }
+
       const auth = authModule.getAuth(app);
       connectAuthEmulatorIfNeeded(authModule, auth);
 

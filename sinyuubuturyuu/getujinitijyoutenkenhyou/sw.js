@@ -1,12 +1,12 @@
-const APP_VERSION = "20260928a";
+const APP_VERSION = "20261018-shinyubutsuryu-apps-a";
 const CACHE_NAME = `monthly-inspection-shell-${APP_VERSION}`;
 const APP_SHELL = [
   "./",
   `./index.html?v=${APP_VERSION}`,
   "./styles.css?v=20260315-19",
-  "./app.js?v=20260801a",
-  "./firebase-config.js?v=20260727a",
-  "../driver-points/driver-points.js?v=20260928a",
+  "./app.js?v=20261018-shinyubutsuryu-apps-a",
+  "./firebase-config.js?v=20261018-shinyubutsuryu-apps-a",
+  "../driver-points/driver-points.js?v=20261018-shinyubutsuryu-apps-a",
   "./manifest.webmanifest?v=20260315-19",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
